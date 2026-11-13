@@ -1,0 +1,12 @@
+.venv
+venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.git
+.env
+artifacts/*
+!artifacts/.gitkeep
+data/raw
+data/images/*
+!data/images/.gitkeep

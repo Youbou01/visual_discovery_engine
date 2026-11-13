@@ -1,0 +1,10 @@
+# Install a PyTorch + Torchvision pair suitable for your OS/CUDA first:
+# https://pytorch.org/get-started/locally/
+-e .
+
+# Optional feature packs (install only what you plan to use):
+# pip install -e '.[clip]'       # CLIP text-to-image search
+# pip install -e '.[faiss]'      # FAISS approximate/fast vector search
+# pip install -e '.[api]'        # FastAPI REST service
+# pip install -e '.[dev]'        # Tests and linting
+# pip install -e '.[all]'        # Everything above except PyTorch itself
